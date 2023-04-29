@@ -7,3 +7,6 @@ set(Glut_LIBRARIES debug ${GLUT_LIB_DEBUG}/libfreeglut.lib optimized ${GLUT_LIB_
 include_directories(${GLUT_INCLUDE})
 
 add_definitions(-DFREEGLUT_STATIC)
+
+macro(AziGlut)
+endmacro(AziGlut)
